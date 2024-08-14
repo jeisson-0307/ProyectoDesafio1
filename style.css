@@ -1,0 +1,124 @@
+body {
+    background-color: #E9ECF8;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #logo {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 40px;
+    top: 40px;
+  }
+  
+  #texto {
+    background-color: #E9ECF8;
+    position: absolute;
+    width: 675px;
+    height: 600px;
+    left: 240px;
+    top: 168px;
+    border: none;
+    color: #c70909;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    resize: none;
+    overflow: auto;
+  }
+  
+  
+  #texto:focus {
+    outline: none;
+  }
+  
+  div {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 800px;
+  }
+  
+  button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    font-size: 16px;
+    text-align: center;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    border-radius: 15px;
+  }
+  
+  #encriptar {
+    background-color: #6b727a;
+    color: white;
+  }
+  
+  #desencriptar {
+    background-color: rgb(109, 174, 228);
+    color: #0A3871;
+    border: 2px solid #0A3871;
+  }
+  
+  button.curvo {
+    padding: 12px 30px;
+  }
+  
+  #respuesta {
+    padding: 0 10px;
+    position:relative;
+    width: 336px;
+    height: 675px;
+    left: 1032px;
+    top: 72px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    background-color: aliceblue;
+    border: 2px solid #0A3871;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+
+  #respuesta:after {
+    /* ... */
+    position: absolute;
+    content: "";
+    bottom: -25px;
+    left: 0;
+  }
+
+  #respuesta-container {
+    position: relative;
+  }
+  
+  
+  #respuesta p {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  #copiarBtn {
+    float: right;
+    margin-top: 10px;
+    margin-top: 75px;
+    margin-right: 85px;
+
+  }
